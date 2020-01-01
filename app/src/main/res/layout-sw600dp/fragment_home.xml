@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+
+        >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/appointement"
+            android:layout_width="0dp"
+            android:layout_height="320dp"
+            android:background="@drawable/buttoncorners"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:onClick="GetAppointment"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+
+
+
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/appointmentsicon"
+                android:layout_gravity="center_horizontal"
+
+
+
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Appointments"
+                android:textSize="22sp"
+                android:textColor="#003376"
+                android:fontFamily="@font/cairosemibold"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="320dp"
+            android:background="@drawable/buttoncorners"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:onClick="GetPatientPortal"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+
+
+            >
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/patientportalicon"
+                android:layout_gravity="center_horizontal"
+
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/patientportal"
+                android:textSize="22sp"
+                android:textColor="#003376"
+                android:layout_gravity="center_horizontal"
+
+                android:fontFamily="@font/cairosemibold"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/services"
+            android:layout_width="0dp"
+            android:layout_height="320dp"
+            android:background="@drawable/buttoncorners"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            android:onClick="GetServices"
+           android:gravity="center_vertical"
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/servicesicon"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Services"
+                android:textSize="22sp"
+                android:layout_below="@id/img3"
+                android:textColor="#003376"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/cairosemibold"
+                >
+
+            </TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

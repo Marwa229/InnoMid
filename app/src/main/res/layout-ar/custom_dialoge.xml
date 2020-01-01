@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+
+    >
+
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnnile"
+        android:textSize="18sp"
+        android:text="@string/open_in_google_maps"
+        android:id="@+id/dialogbut2"
+        android:textColor="#fff"
+        android:fontFamily="@font/cairoregular"
+
+
+        >
+
+
+    </Button>
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonred"
+        android:textSize="18sp"
+        android:text="@string/cancel"
+        android:id="@+id/dialogbut3"
+        android:textColor="#fff"
+        android:fontFamily="@font/cairoregular"
+        android:layout_marginBottom="100dp"
+
+
+        >
+
+
+    </Button>
+
+</LinearLayout>

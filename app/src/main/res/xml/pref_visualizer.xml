@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <SwitchPreferenceCompat
+        app:title="@string/safeoflinedata"
+        app:allowDividerBelow="true"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        android:defaultValue="@bool/pref_show_bass_default"
+
+
+
+
+        >
+
+
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat
+        app:title="@string/notmebefappointment"
+        app:allowDividerBelow="true"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        android:defaultValue="@bool/pref_show_mid_range_default"
+
+
+
+        >
+
+
+    </SwitchPreferenceCompat>
+    <SwitchPreferenceCompat
+        app:title="@string/notmewithmedicalappointment"
+        app:allowDividerBelow="true"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        android:defaultValue="@bool/pref_show_treble_default"
+
+
+        >
+
+
+    </SwitchPreferenceCompat>
+
+    <Preference
+        app:title="@string/selecthospital"
+        app:allowDividerBelow="true"
+        app:iconSpaceReserved="false"
+        app:allowDividerAbove="true"
+        android:key="selecthospital"
+
+
+
+        >
+
+    </Preference>
+
+
+
+
+</PreferenceScreen>

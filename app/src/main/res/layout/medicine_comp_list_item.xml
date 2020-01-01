@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/med_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicine Name"
+        android:textSize="16dp"
+        android:fontFamily="@font/cairoregular"
+        android:layout_marginLeft="30dp"
+        android:textColor="#003376"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/med_period"
+        android:layout_below="@id/med_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tablets / 24 H"
+        android:textSize="14dp"
+        android:fontFamily="@font/cairoregular"
+        android:layout_marginLeft="30dp"
+        android:textColor="#666666"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/med_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/med_name"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/med_period"
+        android:fontFamily="@font/cairobold"
+        android:text="Taken"
+        android:textColor="#666666"
+
+
+        android:textSize="16dp">
+
+    </TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardBackgroundColor="#c5eeff"
+    android:layout_margin="10dp"
+    android:id="@+id/dr_name_cardview"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/drimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10.5dp"
+            android:src="@drawable/doctoravatarimg"
+
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dr_name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/drimg"
+            android:layout_marginRight="9.5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textColor="#003376"
+            android:fontFamily="@font/cairosemibold"
+            android:text="Mohamed Salah"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dr_job_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/drimg"
+            android:layout_below="@id/dr_name_txt"
+            android:layout_marginRight="9.5dp"
+            android:text="Orthopedic Surgery"
+            android:textColor="#009cdc"
+            android:textSize="14sp"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dr_detail_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/drimg"
+            android:layout_below="@id/dr_job_txt"
+            android:layout_marginRight="9.5dp"
+            android:text="Some other details about this doctor, some
+            other details about this doctor ..."
+            android:fontFamily="@font/cairoregular"
+            android:textSize="14sp"
+            android:textColor="#003376"
+            >
+
+        </TextView>
+
+
+        <LinearLayout
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentBottom="true"
+            android:background="#009cdc"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="@string/book"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:fontFamily="@font/cairosemibold"
+
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/timeimg"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/timesmallicon"
+            android:layout_above="@id/book"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="11dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/dt_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeimg"
+            android:layout_above="@id/book"
+            android:text="2:00 PM - 4:00 PM"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:textColor="#003376"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/dr_img_day"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/daysmallicon"
+            android:layout_above="@id/book"
+            android:layout_toLeftOf="@id/dt_time_txt"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40.5dp"
+            android:layout_marginBottom="11dp"
+            >
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/book"
+            android:layout_toLeftOf="@id/dr_img_day"
+            android:text="Sun, Tue, Thu"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:textColor="#003376"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

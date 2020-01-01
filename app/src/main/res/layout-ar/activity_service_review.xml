@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ServiceReview"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <include
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/app_bar_cancel"
+
+            >
+
+
+        </include>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/service_quality"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+
+        </TextView>
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/rate1"
+            >
+
+        </RatingBar>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            >
+
+
+        </View>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/time_frame"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+
+        </TextView>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/rate2"
+            >
+
+        </RatingBar>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            >
+
+
+        </View>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start_of_a_service"
+            android:layout_marginTop="18dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairosemibold"
+            >
+
+
+        </TextView>
+
+
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/rate3"
+            >
+
+        </RatingBar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            >
+
+
+        </View>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/staff_behavior"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairosemibold"
+
+            >
+
+
+        </TextView>
+
+
+
+        <RatingBar
+            android:id="@+id/rate4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+        </RatingBar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"
+            >
+
+
+        </View>
+
+
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttoncorners"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+
+            <EditText
+                android:layout_marginRight="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/leave_a_comment"
+                android:ems="20"
+                android:textSize="16sp"
+                android:fontFamily="@font/cairoregular"
+                android:inputType="textMultiLine"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#c1c1c1"
+
+                >
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonfillcorners"
+            android:textColor="#fff"
+            android:text="@string/submit"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/cairoregular"
+            android:textSize="14sp"
+
+
+
+
+            >
+
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

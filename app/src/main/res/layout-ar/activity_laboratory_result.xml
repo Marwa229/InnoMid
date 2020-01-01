@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LaboratoryResultActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <include
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/lab_toolbar"
+
+            >
+
+
+        </include>
+
+
+
+        <ImageView
+            android:id="@+id/labimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

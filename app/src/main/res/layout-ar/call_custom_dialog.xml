@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/callnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="+20224542065"
+        android:textSize="18sp"
+        android:textColor="#003376"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/cairosemibold"
+        android:layout_marginBottom="31dp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/cancel"
+            android:fontFamily="@font/cairosemibold"
+            android:textSize="16sp"
+            android:textColor="#c5eeff"
+
+            />
+
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/call"
+            android:fontFamily="@font/cairosemibold"
+            android:textSize="16sp"
+            android:textColor="#c5eeff"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

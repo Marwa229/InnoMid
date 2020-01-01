@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009cdc</color>
+    <color name="colorPrimaryDark">#006eaa</color>
+    <color name="colorAccent">#61cdff</color>
+    <color name="dialogtxt">#fff</color>
+    <color name="tapcolor">#009cdc</color>
+    <color name="tapcolorunselect">#c1c1c1</color>
+    <color name="colorrate">#f9d800</color>
+    <color name="transparent">#80000000</color>
+    <color name="button_invisible">#dfdfdf</color>
+    <color name="text_invisible">#aaaaaa</color>
+    <color name="fav">#ffccbc</color>
+    <color name="lincolor">#009cdc</color>
+    <color name="txtcolor">#ffffff</color>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:layout_height="170dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/discard_changes"
+        android:textSize="18sp"
+        android:textColor="#003376"
+        android:fontFamily="@font/cairobold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/are_you_sure_you_want_to_start_n_new_booking_and_discard_your_n_t_t_t_current_details"
+        android:textSize="16sp"
+        android:textColor="#003376"
+        android:fontFamily="@font/cairosemibold"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/noo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/no"
+            android:fontFamily="@font/cairosemibold"
+            android:textSize="16sp"
+            android:textColor="#c5eeff"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/yaas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/yes"
+            android:fontFamily="@font/cairosemibold"
+            android:textSize="16sp"
+            android:textColor="#c5eeff"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

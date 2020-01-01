@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbartextapperance">
+        <item name="android:fontFamily">@font/cairosemibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="bottomnavtextapperance">
+        <item name="android:fontFamily">@font/cairosemibold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="navviewtextapperance">
+        <item name="android:fontFamily">@font/cairosemibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#aaaaaa</item>
+    </style>
+
+    <style name="date_picker">
+        <item name="android:textColor">#009CDC</item>
+        <item name="android:fontFamily">@font/cairobold</item>
+
+    </style>
+
+
+</resources>

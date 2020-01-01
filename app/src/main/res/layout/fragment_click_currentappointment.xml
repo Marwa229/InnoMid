@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/dricon"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="19dp"
+        android:src="@drawable/doctorfollowicon"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/dr_name_txt_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dricon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#003376"
+        android:fontFamily="@font/cairobold"
+        android:text="Mohamed Salah"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dr_job_txt_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dricon"
+        android:layout_below="@id/dr_name_txt_icon"
+        android:layout_marginLeft="10dp"
+        android:text="Consultant Ear, Nose and Throat"
+        android:textColor="#aaaaaa"
+        android:textSize="14sp"
+        android:fontFamily="@font/cairoregular"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/timeimg"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_below="@id/dr_job_txt_icon"
+        android:layout_marginLeft="19dp"
+        android:src="@drawable/datetime"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/dttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/timeimg"
+        android:layout_below="@id/dr_job_txt_icon"
+        android:text="10-03-2019"
+        android:textSize="14sp"
+        android:textColor="#003376"
+        android:fontFamily="@font/cairosemibold"
+        android:layout_marginLeft="10dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/dttxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dttxt"
+        android:layout_below="@id/dr_job_txt_icon"
+        android:text="5:00 PM"
+        android:textSize="14sp"
+        android:textColor="#003376"
+        android:fontFamily="@font/cairosemibold"
+        android:layout_marginLeft="42dp"
+        >
+
+    </TextView>
+
+
+    <View
+        android:id="@+id/vv1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/dttxt1"
+        android:background="#c1c1c1"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/titj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vv1"
+        android:layout_marginLeft="19dp"
+        android:textColor="#003376"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cairobold"
+        android:text="@string/diagnosis"
+        android:textSize="16sp"
+        >
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/digdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titj"
+        android:layout_marginLeft="19dp"
+        android:textColor="#666666"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/cairoregular"
+        android:text="Consultant Ear, Nose and Throat, Consultant Ear, Nose
+ and Throat, Consultant Ear, Nose and Throat,
+Consultant Ear, Nose and Throat, Consultant Ear, Nose
+and Throat, Consultant Ear, Nose and Throat, Consultant
+Ear, Nose and Throat, Consultant Ear, Nose and Throat,
+Consultant Ear, Nose and Throat, Consultant Ear, Nose
+and Throat. Consultant Ear, Nose  and Throat. Consul-
+tant Ear, Nose and Throat. "
+        android:textSize="14sp"
+        >
+
+    </TextView>
+
+
+    <View
+        android:id="@+id/vv2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/digdetail"
+        android:background="#c1c1c1"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/titk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vv2"
+        android:layout_marginLeft="19dp"
+        android:textColor="#003376"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cairobold"
+        android:text="@string/x_rays"
+        android:textSize="16sp"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/xraydetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titk"
+        android:layout_marginLeft="19dp"
+        android:textColor="#666666"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/cairoregular"
+        android:text="Bite-wing X-Rays"
+        android:textSize="14sp"
+        android:layout_marginBottom="75dp"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/sendmsg"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="#3ca500"
+            >
+            <ImageView
+                android:layout_width="18.5dp"
+                android:layout_height="16dp"
+                android:src="@drawable/commentdots"
+                android:layout_marginLeft="26dp"
+                android:layout_gravity="center_vertical"
+                >
+
+            </ImageView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairoregular"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="@string/send_message"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/bookagain"
+            android:background="#009cdc"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/datetimeicccon"
+                android:layout_marginLeft="26dp"
+                android:layout_gravity="center_vertical"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cairoregular"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="@string/book_again"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

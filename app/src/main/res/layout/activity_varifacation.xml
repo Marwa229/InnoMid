@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.VarifacationActivity"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <include
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/backappbar"
+
+            />
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/varification_code"
+        android:layout_marginTop="69dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/cairosemibold"
+        android:textColor="@color/colorPrimary"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/please_type_the_varification_code_sent_to"
+        android:textSize="16sp"
+        android:fontFamily="@font/cairoregular"
+        android:textColor="#003376"
+        android:layout_marginTop="10dp"
+        >
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mobile_verf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/cairosemibold"
+        android:textColor="#009cdc"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+
+
+        >
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttoncorners"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/code1"
+            android:maxLength="1"
+            android:cursorVisible="false"
+
+
+
+            >
+
+
+        </EditText>
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttoncorners"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/code2"
+            android:maxLength="1"
+            android:cursorVisible="false"
+
+
+            >
+
+
+        </EditText>
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/buttoncorners"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/code3"
+            android:maxLength="1"
+            android:cursorVisible="false"
+
+
+            >
+
+
+        </EditText>
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttoncorners"
+            android:inputType="number"
+            android:gravity="center"
+            android:id="@+id/code4"
+            android:maxLength="1"
+            android:cursorVisible="false"
+
+
+
+            >
+
+
+        </EditText>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/valid"
+            android:id="@+id/verfyimg"
+            android:visibility="gone"
+
+
+            >
+
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/resend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_code"
+            android:textSize="16sp"
+            android:fontFamily="@font/cairoregular"
+            android:textColor="#009cdc"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/cairoregular"
+            android:textColor="#cc0000"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/Timer"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

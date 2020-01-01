@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+            <ImageView
+                android:id="@+id/imh"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_close"
+
+                >
+
+            </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reason_to_cancel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairosemibold"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+
+            >
+
+            <RadioButton
+                android:id="@+id/rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reason_one"
+                android:textSize="16sp"
+                android:textColor="#003376"
+                android:fontFamily="@font/cairosemibold"
+                android:paddingLeft="10dp"
+                >
+
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reason_two"
+                android:textSize="16sp"
+                android:textColor="#003376"
+                android:fontFamily="@font/cairosemibold"
+                android:paddingLeft="10dp"
+
+
+                >
+
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reason_three"
+                android:textSize="16sp"
+                android:textColor="#003376"
+                android:fontFamily="@font/cairosemibold"
+                android:paddingLeft="10dp"
+
+
+                >
+
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/rad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:textSize="16sp"
+                android:textColor="#003376"
+                android:fontFamily="@font/cairosemibold"
+                android:paddingLeft="10dp"
+                >
+
+
+            </RadioButton>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttoncorners"
+                android:layout_gravity="center_horizontal"
+
+                >
+
+
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/comment"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/comment"
+                    android:ems="20"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/cairoregular"
+                    android:inputType="textMultiLine"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="20dp"
+                    android:textColorHint="#c1c1c1"
+                    android:padding="10dp"
+
+                    >
+
+                </EditText>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RadioGroup>
+
+
+
+
+        <Button
+            android:id="@+id/cancelappointment"
+            android:layout_width="230dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonred"
+            android:layout_marginTop="20dp"
+            android:text="@string/cancel_appointment"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/cairoregular"
+            android:textSize="14sp"
+            android:fontFeatureSettings="smcp"
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            >
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

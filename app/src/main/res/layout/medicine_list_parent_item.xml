@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:id="@+id/card"
+    android:animateLayoutChanges="true"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c5eeff"
+        android:id="@+id/cardcont"
+        android:animateLayoutChanges="true"
+        >
+
+        <ImageView
+            android:id="@+id/drf"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/doctorfollowicon"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/drnf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/drf"
+            android:textSize="18sp"
+            android:fontFamily="@font/cairobold"
+            android:textColor="#003376"
+            android:text="Mohamed Salah"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/jobf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/drnf"
+            android:layout_toRightOf="@id/drf"
+            android:layout_marginLeft="4dp"
+            android:text="Neurosurgery Clinic"
+            android:fontFamily="@font/cairosemibold"
+            android:textSize="14sp"
+            android:textColor="#009cdc"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ddt"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/datetime"
+            android:layout_below="@id/jobf"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="3dp"
+
+            >
+
+        </ImageView>
+
+        <TextView
+         android:id="@+id/djt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ddt"
+            android:layout_below="@id/jobf"
+            android:text="10-03-2019"
+            android:textSize="14sp"
+            android:textColor="#003376"
+            android:fontFamily="@font/cairosemibold"
+            android:layout_marginLeft="10dp"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dttxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/djt"
+            android:layout_below="@id/jobf"
+            android:text="5:00 PM"
+            android:textSize="14sp"
+            android:textColor="#003376"
+            android:fontFamily="@font/cairosemibold"
+            android:layout_marginLeft="42dp"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/crr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/collapse"
+            android:fontFamily="@font/cairosemibold"
+            android:text="@string/current"
+            android:textColor="#009cdc"
+            android:textSize="14sp"
+
+            >
+
+        </TextView>
+
+    <ImageView
+        android:id="@+id/collapse"
+        android:layout_alignParentRight="true"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/arrowdowncurrentbtn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        >
+
+    </ImageView>
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/dttxt1"
+            android:visibility="gone"
+
+
+            >
+
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#fff"
+
+
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/disname"
+                android:text="Tinea Capitis"
+                android:textSize="16sp"
+                android:fontFamily="@font/cairobold"
+                android:textColor="#003376"
+                android:paddingLeft="10dp"
+                android:background="#c5eeff"
+                >
+
+            </TextView>
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                >
+
+            </ListView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="#fff"
+                >
+
+                <ImageView
+                    android:id="@+id/shre"
+                    android:layout_width="30dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/sharepresicon"
+                    android:layout_marginBottom="8dp"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/prec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:text="Share Prescription"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="18dp"
+                    android:textColor="#003376"
+                    android:fontFamily="@font/cairobold"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

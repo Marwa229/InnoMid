@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/avatarimg"
+            android:scaleType="centerCrop"
+            android:id="@+id/profileimg"
+            >
+
+
+        </ImageView>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+
+
+
+
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="text"
+                    android:hint="@string/first_name"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="text"
+                    android:hint="@string/last_name"
+
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+
+
+
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="text"
+                    android:hint="@string/medical_number"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="phone"
+                    android:hint="@string/phone_number"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:fontFamily="@font/cairosemibold"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#333333"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="14sp"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="datetime"
+                    android:hint="@string/date_of_birth"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+
+           >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textColor="#aaaaaa"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/cairosemibold"
+                android:layout_marginLeft="1dp"
+                />
+              <RadioGroup
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="right"
+                  android:layout_marginRight="20dp"
+                  android:fontFamily="@font/cairosemibold"
+
+                  >
+
+                  <RadioButton
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="20dp"
+                      android:textColor="#aaaaaa"
+                      android:text="@string/male"
+
+                      >
+
+                  </RadioButton>
+
+                  <RadioButton
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/female"
+                      android:fontFamily="@font/cairosemibold"
+                      android:textColor="#aaaaaa"
+                      >
+
+                  </RadioButton>
+
+              </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="35dp"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="text"
+                    android:hint="@string/city"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                >
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/cairosemibold"
+                    android:textColor="#333333"
+                    android:inputType="text"
+                    android:hint="@string/nationality"
+                    android:textColorHint="@color/colorPrimary"
+
+                    >
+
+                </EditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonfillcorners"
+        android:layout_marginTop="23.1dp"
+        android:layout_marginBottom="21dp"
+        android:text="@string/save"
+        android:textColor="#ffffff"
+        >
+
+    </Button>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
